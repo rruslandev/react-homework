@@ -1,0 +1,19 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	align-items: flex-start;
+}
+
+.title {
+	color: #1b1f23;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 32px;
+}
+
+.text {
+	color: #1b1f23;
+	font-size: 16px;
+	line-height: 24px;
+}

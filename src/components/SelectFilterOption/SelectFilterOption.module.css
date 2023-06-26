@@ -1,0 +1,13 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	align-items: flex-start;
+}
+
+.label {
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400;
+	color: #1b1f23;
+}

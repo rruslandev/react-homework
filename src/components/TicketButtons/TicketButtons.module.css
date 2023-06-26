@@ -1,0 +1,24 @@
+.wrapper {
+	display: flex;
+	gap: 28px;
+	align-items: center;
+}
+
+.counters {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+}
+
+.counter {
+	width: 22px;
+	color: #1b1f23;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 20px;
+	text-align: center;
+}
+
+.closeImg {
+	cursor: pointer;
+}

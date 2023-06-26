@@ -9,7 +9,7 @@ router.get("/cinemas", (req, res, next) => {
 router.get("/movies", (req, res, next) => {
   const { cinemaId } = req.query;
   let result = movies;
-
+  
   if (cinemaId) {
     const cinema = getById(cinemas)(cinemaId);
 
