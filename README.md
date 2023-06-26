@@ -44,16 +44,17 @@ pnpm dev
 
 ## Описание директорий
 
-1. [simple_api](./simple_api) - локальный сервер для загрузки данных о фильме
-2. [app](/src/app) - основная папка со страницами
+1. [public](./public/) - папка public. Там расположены все иконки
+2. [simple_api](./simple_api) - локальный сервер для загрузки данных о фильме
+3. [app](/src/app) - основная папка со страницами
 
 - [about](/src/app/about) - страница "О нас"
 - [cart](/src/app/cart) - страница с корзиной товаров
 - [faq](/src/app/faq) - страница "Вопросы-ответы"
 - [film](/src/app/film/%5Bid%5D) - страница с информацией о фильме
 
-3.  [common](/src/common) - папка с константами
-4.  [components](/src/components) - общая папка со всеми компонентами
-5.  [contexts](/src/contexts) - папка с контекстами
-6.  [hooks](/src/hooks) - папка с хуками
-7.  [store](/src/store) - папка со стором(Redux Toolkit/RTK Query)
+4.  [common](/src/common) - папка с константами
+5.  [components](/src/components) - общая папка со всеми компонентами
+6.  [contexts](/src/contexts) - папка с контекстами
+7.  [hooks](/src/hooks) - папка с хуками
+8.  [store](/src/store) - папка со стором(Redux Toolkit/RTK Query)
